@@ -1,0 +1,80 @@
+body{ 
+    background-color:
+    hsl(240, 51%, 83%);
+    font-family: 'League Spartan', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    border-radius: 10px; 
+    background-color:rgb(255,255,255);
+    width: 300px; 
+    margin:auto;
+    text-align:center;
+}
+    
+.fig2{ 
+    text-align:center;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h1{
+    font-size:20px;
+    margin-top: 28px;
+    text-align: center;
+}
+
+p#o{ 
+    margin-top: -10px;
+    font-size: 12px;
+    padding: 10px 30px;
+    line-height: 25px;
+    color:rgb(150, 147, 143);
+}
+
+.annual{
+    background-color: rgb(207, 216, 244);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.fig1{
+    width: 50px;
+    height: 50px;
+}
+
+.annual-price {
+    text-align: left;
+    padding: 0px 30px 0px 6px;
+}
+
+h2 {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 3px;
+    padding: 0px 18px 0px 0px ;
+}
+
+.price {
+    margin: 0;
+    font-size:12px;
+}
+
+p#e{
+    background-color: rgb(7, 51, 194);
+    border-radius: 5px;
+    margin:10px;
+    
+}
+
+p#e a{
+    color: white;
+    text-decoration: none;
+}

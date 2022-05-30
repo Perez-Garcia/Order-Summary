@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html class=" bkdzfgh idc0_340" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    
+    <title>Intégration 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="stylesheet" href="int%C3%A9gration2_fichiers/intgartion2.css"></head>
+<body>
+
+<article>
+    <img class="fig2" src="int%C3%A9gration2_fichiers/grand.svg" alt="grand">
+
+    <h1>Order Summary</h1>
+    
+    <p id="o">You can now listen to millions of songs, audiobook, and podcasts on amy device anywhere you like</p>
+ 
+
+    <div class="annual">
+        <img class="fig1" src="int%C3%A9gration2_fichiers/iconne.svg" alt="musique"> 
+        <div class="annual-price">
+            <h2>Annual Plan</h2>
+            <p class="price">$59,99/year</p>
+        </div>
+        <p><a href="http://127.0.0.1:5500/exemple.com">Change</a></p>
+        
+    </div>
+    <p id="e"><a href="http://127.0.0.1:5500/test.com">Proceed to Payement</a></p>
+
+    <p id="u"> <a href="http://127.0.0.1:5500/non.com">Cancel Order</a></p>
+
+</article>
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
